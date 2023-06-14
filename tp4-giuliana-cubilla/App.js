@@ -8,7 +8,7 @@ const express = require('express');
 const app = express();
 
 // Definir el puerto en el que la aplicación escuchará las peticiones
-const port = 6000;
+const port = 3000;
 
 // Configurar los middlewares
 app.use(helmet()); // Middleware de seguridad
